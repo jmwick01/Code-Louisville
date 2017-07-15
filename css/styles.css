@@ -149,6 +149,7 @@ Lightbox
 }
 
 #overlay img {
+<<<<<<< HEAD
   position: relative;
   max-height: 100%;
 }
@@ -163,6 +164,12 @@ Lightbox
   border-top: none;
   font-size: 1.6em;
 }
+=======
+   max-height: 100%;
+}
+
+
+>>>>>>> 747b1dacdcfafdb6a362bf3427faa31b1033b054
 
 }
 

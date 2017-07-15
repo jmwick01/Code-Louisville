@@ -12,7 +12,7 @@ $overlay.append($caption);
 
 $("body").append($overlay);
 
-$("#imageLightbox a").click(function(event) {
+$("#imageLightbox a").click(function (event) {
     event.preventDefault();
     var imageLocation = $(this).attr("href");
 
@@ -25,6 +25,6 @@ $("#imageLightbox a").click(function(event) {
 });
 
 
-$overlay.click(function() {
+$overlay.click(function () {
     $overlay.hide();
 });

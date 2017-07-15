@@ -1,0 +1,187 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/**********************************
+Main Styles
+**********************************/
+
+h1 {
+  text-align: center;
+}
+
+
+p {
+  padding-top: 30px;
+}
+
+img {
+  padding-top: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+
+/**********************************
+Navigation Bar
+**********************************/
+
+.nav li.active a {
+  background-color: #5FBAD2;
+  color: #fff;
+}
+
+.nav li.active a:hover {
+  background-color: #5FBAD2;
+  color: #fff;
+}
+
+
+/**********************************
+Jumbotron
+**********************************/
+
+.jumbotron {
+  margin-bottom: 50px;
+  height: 500px;
+  background-image: url("../img/skyline-buildings-new-york-skyscrapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  padding-top: 25%;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+/**********************************
+Buttons
+**********************************/
+
+button {
+  padding: 2px 5px;
+  background-color: #5FBAD2;
+  text-decoration: none;
+  display: block;
+}
+
+button a {
+  color: #fff;
+}
+
+button.active a:hover {
+  background-color: #5FBAD2;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/**********************************
+Elements for Sticky Footer
+**********************************/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content {
+  flex: 1 0 auto;
+}
+
+#main-footer p{
+  padding-top: 5px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+  text-align: center;
+  background-color: #5FBAD2;
+}
+
+
+
+/**********************************
+Media Queries
+**********************************/
+
+
+@media (min-width: 768px) {
+
+  img {
+    padding-bottom: 100px;
+  }
+
+  p {
+    margin-top: 5px;
+    border-top: 1px solid #5FBAD2;
+  }
+
+  .noBorder {
+    border-top: none;
+    margin-top: 50px;
+  }
+
+/**********************************
+Lightbox
+**********************************/
+
+#overlay {
+  background: rgba(0,0,0,0.98);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  position: relative;
+  max-height: 100%;
+}
+
+#overlay p {
+  position: absolute;
+  width: 100%;
+  top: 85%;
+  left: 0px;
+  color: white;
+  text-align: center;
+  border-top: none;
+  font-size: 1.6em;
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  p,
+  img {
+    margin-top: 5px;
+    border-top: 1px solid #5FBAD2;
+  }
+
+  img {
+    padding-bottom: 30px;
+  }
+
+  button {
+    margin: auto;
+  }
+
+}

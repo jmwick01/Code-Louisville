@@ -12,6 +12,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 p {
   padding-top: 30px;
@@ -128,6 +134,10 @@ Media Queries
     border-top: 1px solid #5FBAD2;
   }
 
+  h2 {
+    display: none;
+  }
+
   .noBorder {
     border-top: none;
     margin-top: 50px;
@@ -181,6 +191,10 @@ Lightbox
   }
 
   button {
+    margin: auto;
+  }
+
+  .jumbotron h1 {
     margin: auto;
   }
 

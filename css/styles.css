@@ -46,6 +46,10 @@ Navigation Bar
   color: #fff;
 }
 
+#hamburger {
+  color: white;
+  background-color: #5FBAD2;
+}
 
 /**********************************
 Jumbotron

@@ -28,3 +28,14 @@ $("#imageLightbox a").click(function (event) {
 $overlay.click(function () {
     $overlay.hide();
 });
+
+
+/**********************************
+Mobile Menu
+**********************************/
+
+$(document).ready(function() {
+    $('li#hamburger').click(function() {
+        $(this).addClass("hidden-xs").siblings().removeClass("hidden-xs");  
+    });
+});

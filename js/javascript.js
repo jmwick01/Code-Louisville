@@ -2,6 +2,8 @@
 Lightbox
 **********************************/
 
+if ( $(window).width() > 767) {
+
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
@@ -27,7 +29,15 @@ $("#imageLightbox a").click(function (event) {
 
 $overlay.click(function () {
     $overlay.hide();
-});
+}); 
+
+    } else {
+
+        $("#imageLightbox a").click(function (event) {
+            event.preventDefault();
+        })
+
+}
 
 
 /**********************************
